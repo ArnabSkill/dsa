@@ -23,6 +23,6 @@ int main(void) {
     mid = (low + high) / 2;
   }
   if (low > high)
-    printf("\nNot found!\n%d is not present in the list", key);
+    printf("\n%d is not present in the list", key);
   return 0;
 }
